@@ -28,5 +28,6 @@ public class ListInterface {
         listofIntegers1.addAll(listofIntegers2);
         //System.out.println("Added elements of 2 to 1 " +);
         System.out.println(listofIntegers1);
+        System.out.println(listofIntegers2);
     }
 }
