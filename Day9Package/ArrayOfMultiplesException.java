@@ -13,7 +13,6 @@ public class ArrayOfMultiplesException {
         if(i<j) throw new GreaterThanException();
         arrOfMultiples(i, j);
     }
-
     public static void arrOfMultiples(int i, int j)    {
         {
             int l, k;
