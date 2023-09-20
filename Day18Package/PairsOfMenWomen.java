@@ -17,9 +17,8 @@ public class PairsOfMenWomen {
             String nameMan = sc.next();
             man.add(nameMan);
         }
-        if(woman.size() == man.size()){
-            for(int i = 0;i<3;i++)
+        for(int i = 0;i<3;i++)
             System.out.println("[" + woman.get(i) + " ," + man.get(i)  + "]");
-        }
+
     }
 }
