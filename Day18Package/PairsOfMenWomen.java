@@ -1,13 +1,11 @@
 package Day18Package;
 
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
-
 public class PairsOfMenWomen {
     public static void main(String[] args) {
-        ArrayList<String> man = new ArrayList<String>();
-        ArrayList<String> woman = new ArrayList<String>();
+        ArrayList<String> man = new ArrayList<>();
+        ArrayList<String> woman = new ArrayList<>();
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter 3 names of woman");
         for (int i = 0; i < 3; i++) {
