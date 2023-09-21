@@ -1,8 +1,6 @@
 package Day19Package;
 
-
 import java.util.HashSet;
-
 import java.util.Scanner;
 
 public class Unrepeated {
@@ -14,9 +12,9 @@ public class Unrepeated {
         String word = sc.next();
         j = word.toCharArray();
         System.out.println(j);
-        for(int i=0;i<10;i++){
+        for (int i = 0; i < 10; i++) {
             unrepeated.add(j[i]);
         }
-       System.out.println(unrepeated);
-        }
+        System.out.println(unrepeated);
+    }
 }
