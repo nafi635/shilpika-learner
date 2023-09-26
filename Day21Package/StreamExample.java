@@ -14,7 +14,7 @@ public class StreamExample {
         System.out.println(streamex);
         System.out.println("Total count of elements: " + streamex.stream().count());
         streamex.stream().filter(num -> num % 3 == 0).forEach(System.out::println);
-        System.out.println("Sorted Stream: " + streamex.stream().sorted());
+        System.out.println("Sorted Stream: " + streamex.stream().sorted().toList());
         System.out.println("Max value: " + streamex.stream().max(Integer::compare).get());
         List<String> streamString = new ArrayList<>();
         streamString.add("Hello");
