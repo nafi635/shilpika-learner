@@ -10,8 +10,9 @@ public class HashSetExample {
         hashExample.add(1);
         hashExample.add(2);
         hashExample.add(3);
-        hashExample.add(3);
+        hashExample.add(4);
         System.out.println(hashExample);
         System.out.println(hashExample.contains(1));
+        System.out.println(hashExample.hashCode());
     }
 }
