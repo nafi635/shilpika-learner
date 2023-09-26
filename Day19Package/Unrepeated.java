@@ -1,20 +1,17 @@
 package Day19Package;
 
-import java.util.HashSet;
-import java.util.Scanner;
+import java.util.*;
 
 public class Unrepeated {
     public static void main(String[] args) {
-        HashSet<Character> unrepeated = new HashSet<>();
-        char[] j = new char[10];
+       // Collection<Character> unrepeated = new HashSet<>();
+        Set<Character> j = new HashSet<>();
         Scanner sc = new Scanner(System.in);
         System.out.println("Please give a word");
         String word = sc.next();
-        j = word.toCharArray();
-        System.out.println(j);
-        for (int i = 0; i < 10; i++) {
-            unrepeated.add(j[i]);
+        for(int i = 0;  i <word.length() ;   i++){
+            j.add(word.charAt(i));
         }
-        System.out.println(unrepeated);
+        System.out.println(j);
     }
 }
